@@ -1,0 +1,32 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #f2f2f2;
+}
+
+.page-content{
+    width: 75%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.return-box{
+    width: 75%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.return-btn{
+    padding: 10px 15px;
+    width: 250px;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+.page-content{
+    flex-direction: column;
+    padding: 20px;
+}
+
+h1{
+    color: #F56D58;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.emotion-memes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #f2f2f2;
+    border-radius: 2px;
+    padding: 20px;
+    flex-basis: 40%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.figure{
+    margin-right: 20px;
+}
+
+.emotion-memes-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.memes img, .memes iframe, .meme video{
+    border: 3px solid white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+}
+
+.emotion-raiva{
+    background-color: lightcoral;
+}
+
+.emotion-alegria{
+    background-color: lightyellow;
+}
+
+.emotion-alegria h2{
+    color: black;
+}
+
+.emotion-tristeza{
+    background-color: lightskyblue;
+}
+
+.emotion-nojo{
+    background-color: lightgreen;
+}
+
+.emotion-medo{
+    background-color: lightgray;
+}
